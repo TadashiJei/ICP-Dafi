@@ -1,5 +1,4 @@
 import { ethers, network } from "hardhat";
-import { Contract } from "ethers";
 import { networkConfig, contractConfig } from "./config";
 import fs from "fs";
 import path from "path";

@@ -1,6 +1,4 @@
 import { ethers } from "hardhat";
-import { Contract } from "ethers";
-import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/signers";
 
 async function main() {
   const [deployer] = await ethers.getSigners();
